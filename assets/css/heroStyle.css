@@ -70,10 +70,17 @@ section.main-hero {
   text-align: center;
   background-color: #faf9f6;
 }
+.secondary-hero-heading {
+  text-align: center;
+  color: #0d843d;
+  margin-top: 35px;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
 .hero-image {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   text-align: center;
   background-color: rgba(13, 132, 61, 0.7);
@@ -82,6 +89,7 @@ section.main-hero {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   margin-top: 40px;
   transition: 1s ease;
+  width: 250px;
 }
 .hero-image img {
   width: 100px;
@@ -127,5 +135,17 @@ section.main-hero {
   }
   .main-hero-content h2 {
     font-size: 0.9rem;
+  }
+  .secondary-hero img {
+    width: 50px;
+    max-height: 70px;
+    object-fit: cover;
+    margin: 20px 40px;
+  }
+  .secondary-hero h2 {
+    font-size: 0.9rem;
+  }
+  .hero-image {
+    height: 100px;
   }
 }
