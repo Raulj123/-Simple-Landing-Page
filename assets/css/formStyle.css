@@ -1,0 +1,42 @@
+/* FORM */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #fedd00;
+  color: #00843c;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
+input[type="submit"]:hover {
+  color: #075125;
+  scale: 1.05;
+}
+.inquire-container {
+  border-radius: 5px;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #faf9f6;
+}
+.inquire-container h2 {
+  text-align: center;
+  color: #0d8430;
+  font-size: 1.6rem;
+}
+.inquire-container label {
+  color: #8a9097;
+}
