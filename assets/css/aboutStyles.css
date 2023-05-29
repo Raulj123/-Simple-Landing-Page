@@ -1,0 +1,40 @@
+/* ABOUT SECTION */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  background-color: #f1f1f1;
+}
+.about-section img {
+  width: 150px;
+  height: 130px;
+  margin: 0px;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+.about-section h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #0d843d;
+}
+.about-section p {
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+  color: #8a9097;
+  max-width: 80%;
+}
