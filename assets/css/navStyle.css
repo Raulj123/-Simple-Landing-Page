@@ -6,18 +6,15 @@ body {
   background-color: #faf9f6;
   font-family: serif;
 }
-
 li {
   list-style: none;
 }
-
 a {
   text-decoration: none;
   color: #0d843d;
   font-size: 1.2rem;
   font-weight: bold;
 }
-
 a:hover {
   color: #075125;
 }
@@ -32,17 +29,14 @@ a:hover {
   align-items: center;
   justify-content: space-between;
 }
-
 .nav-bar .logo a {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
 .nav-bar .links {
   display: flex;
   gap: 2rem;
 }
-
 .signin-btn {
   background-color: #fedd00;
   color: #00843c;
@@ -55,16 +49,13 @@ a:hover {
   cursor: pointer;
   transition: scale 0.2 ease;
 }
-
 .signin-btn:hover {
   color: #075125;
   scale: 1.05;
 }
-
 .signin-btn:active {
   scale: 0.95;
 }
-
 .bar1,
 .bar2,
 .bar3 {
@@ -75,15 +66,12 @@ a:hover {
   transition: 0.4s;
   display: none;
 }
-
 .change .bar1 {
   transform: translate(0, 11px) rotate(-45deg);
 }
-
 .change .bar2 {
   opacity: 0;
 }
-
 .change .bar3 {
   transform: translate(0, -11px) rotate(45deg);
 }
@@ -102,12 +90,10 @@ a:hover {
   transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   z-index: 9999;
 }
-
 .dropdown-container.open {
   height: 280px;
   display: block;
 }
-
 .dropdown-container li {
   padding: 0.7rem;
   display: flex;
@@ -136,13 +122,11 @@ a:hover {
   .nav-bar .signin-btn {
     display: none;
   }
-
   .bar1,
   .bar2,
   .bar3 {
     display: block;
   }
-
   .dropdown-container {
     display: block;
   }
