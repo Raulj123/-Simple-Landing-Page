@@ -8,10 +8,7 @@
     <link rel="stylesheet" href="./assets/css/navStyle.css" />
     <link rel="stylesheet" href="./assets/css/heroStyle.css" />
     <link rel="stylesheet" href="./assets/css/aboutStyles.css" />
-    <link
-      rel="stylesheet"
-      href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-    />
+    <link rel="stylesheet" href="./assets/css/formStyle.css" />
     <script src="assets/js/script.js"></script>
   </head>
   <body>
@@ -87,6 +84,57 @@
         impactful scientific discoveries.
       </p>
       <img src="./assets/media/zymo_flower.png" alt="Zymo Research" />
+    </div>
+    <div class="container">
+      <form action="" id="inquire-section">
+        <h2>Inquire</h2>
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your first name.."
+          required
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+          required
+        />
+
+        <label for="company">Company</label>
+        <input
+          type="text"
+          id="company"
+          name="company"
+          placeholder="Your company name.."
+          required
+        />
+
+        <label for="role">Role</label>
+        <input
+          type="text"
+          id="role"
+          name="role"
+          placeholder="Your role in the company.."
+          required
+        />
+
+        <label for="comments">Additional Comments</label>
+        <textarea
+          id="comments"
+          name="comments"
+          placeholder="Write your comments here.."
+          style="height: 200px"
+          required
+        ></textarea>
+
+        <input type="submit" value="Submit" class="actionBtn" />
+      </form>
     </div>
   </body>
 </html>
