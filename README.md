@@ -3,14 +3,14 @@ Summer Intern Take-home Assignment
 
 ## Table of Contents
 - [Objective](#Objective)
-- [Design Considerations 🎨](#DesignConsiderations)
-- [Project Structure 🏗️](#ProjectStructure)
-- [Tech Stack 🧰](#TechStacks)
-- [Challenges Faced 💪](#ChallengesFaced)
-- [Features :sparkles:](#Features)
-- [Installation : 📥](#Installation)
-- [Usage 💻](#Usage)
-- [Resources 📚](#Resources)
+- [Design Considerations 🎨](#design-considerations--)
+- [Project Structure 🏗️](#project-structure-%EF%B8%8F-)
+- [Tech Stack 🧰](#tech-stacks--)
+- [Challenges Faced 💪](#challenges-faced--)
+- [Features :sparkles:](#features--)
+- [Installation 📥](#installation--)
+- [Usage 💻](#usage--)
+- [Resources 📚](#resources--)
 
 ## Objective:
 Your task is to create a simple landing page that includes a header, hero section, and a contact form. The page should be responsive and visually appealing.
