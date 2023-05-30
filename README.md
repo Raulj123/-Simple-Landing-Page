@@ -1,5 +1,11 @@
-# Simple-Landing-Page: :tada:
-Summer Intern Take-home Assignment
+<h1 align=center>Simple-Landing-Page: :tada: </h2>
+<p align=center>Summer Intern Take-home Assignment.
+  <a href="https://raulj123.github.io/-Simple-Landing-Page/">Live Link</a>
+</p>
+<h1 align=center>Hero Section Screenshot</h1>
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/1070139130081706068/1112941432546787338/Screen_Shot_2023-05-29_at_8.09.01_PM.png" alt="Hero Section" width="600" style="max-width: 100%;">
+</p>
 
 ## Table of Contents
 - [Objective](#Objective)
